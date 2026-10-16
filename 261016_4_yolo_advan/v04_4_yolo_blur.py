@@ -6,9 +6,9 @@ cap = cv2.VideoCapture(0)
 
 # 2. 모델 로드 + 블러 객체 생성
 blurrer = solutions.ObjectBlurrer(
-    model="yolo11n.pt",
+    model="yolov11n-face.pt",   # 얼굴 전용 모델 (클래스 0 = face), 프로젝트 루트 폴더에 있음
     show=False,
-    blur_ratio=0.3     # 블러 강도 (0.0~1.0, 높을수록 더 흐림)
+    blur_ratio=0.5,     # 블러 강도 (0.0~1.0, 높을수록 더 흐림)
 )
 
 # 3. 비디오 프레임 처리
