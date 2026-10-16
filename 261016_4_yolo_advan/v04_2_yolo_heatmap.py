@@ -1,12 +1,12 @@
 from ultralytics import solutions
 import cv2
 
-cap = cv2.VideoCapture("http://210.99.70.120:1935/live/cctv009.stream/playlist.m3u8")
+cap = cv2.VideoCapture(0)
 
 heatmap = solutions.Heatmap(
     model = "yolo11n.pt",
     show = False,
-    colormap=cv2.COLORMAP_MAGMA
+    colormap=cv2.COLORMAP_COOL
 )
 
 while cap.isOpened():

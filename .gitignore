@@ -12,6 +12,9 @@ __pycache__/
 .venv/
 venv/
 
+# secrets (비밀번호 등)
+.env
+
 # editor / tool settings
 .vscode/
 .claude/
