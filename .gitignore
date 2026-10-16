@@ -1,0 +1,17 @@
+# model weights / large media
+*.pt
+*.mp4
+*.avi
+
+# YOLO outputs
+runs/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# editor / tool settings
+.vscode/
+.claude/
