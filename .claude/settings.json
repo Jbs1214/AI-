@@ -1,0 +1,18 @@
+{
+  "outputStyle": "Learning",
+  "permissions": {
+    "defaultMode": "plan"
+  },
+  "hooks": {
+    "SessionStart": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "cat \"$CLAUDE_PROJECT_DIR/WELCOME.txt\""
+          }
+        ]
+      }
+    ]
+  }
+}
