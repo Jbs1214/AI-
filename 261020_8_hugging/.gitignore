@@ -1,0 +1,15 @@
+# secrets
+.env
+
+# 생성된 리포트
+reports/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 알림 기록·설정
+alerts_state.json
+alerts.json
